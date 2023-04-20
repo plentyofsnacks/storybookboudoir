@@ -1,56 +1,74 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Storybook Boudoir</title>
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Lato:400,700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Storybook Boudoir</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<header>
-		<nav>
-			<ul>
-				<li><a href="#about-us">About Us</a></li>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#gallery">Gallery</a></li>
-				<li><a href="#contact-us">Contact Us</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<section id="hero">
-			<div class="hero-image">
-				<img src="https://images.unsplash.com/photo-1599477945709-d5b5ef0a4572?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Boudoir Photography">
-			</div>
-			<div class="hero-content">
-				<h1>Storybook Boudoir</h1>
-				<p>Empowering women to feel good and happy with who they are, just the way they are.</p>
-				<a href="#contact-us" class="cta-button">Book Now</a>
-			</div>
-		</section>
-		<section id="about-us">
-			<h2>About Us</h2>
-			<p>At Storybook Boudoir, we believe that every woman is beautiful and deserves to feel confident and empowered. Our mission is to help women see themselves in a new light and embrace their unique beauty.</p>
-			<p>Our experienced and professional photographers specialize in boudoir photography, creating stunning images that capture the beauty and essence of each woman. We provide a safe and comfortable environment for our clients, ensuring that they feel relaxed and at ease throughout the photo shoot.</p>
-		</section>
-		<section id="services">
-			<h2>Services</h2>
-			<p>We offer a variety of boudoir photography packages to suit your needs and preferences. Our services include:</p>
-			<ul>
-				<li>Full Boudoir Session</li>
-				<li>Mini Boudoir Session</li>
-				<li>Couples Boudoir Session</li>
-				<li>Bridal Boudoir Session</li>
-			</ul>
-			<p>Each package includes a consultation, hair and makeup styling, and a private online gallery of your images.</p>
-			<a href="#contact-us" class="cta-button">Book Now</a>
-		</section>
-		<section id="contact-us">
-			<h2>Contact Us</h2>
-			<p>Ready to book your boudoir photo shoot? Contact us today to schedule a consultation and discuss your needs and preferences.</p>
-    </section>
-  </main>
-</body>
-</html>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
+  <header>
+    <h1>Storybook Boudoir</h1>
+    <h2>The art of self-love</h2>
+  </header>
+
+  <main>
+    <section id="home">
+      <h3>Home</h3>
+      <p>Welcome to Storybook Boudoir, where we aim to empower women through the transformative power of photography. Our mission is to create a safe and comfortable space where women can fully embrace their authentic selves and unlock their unique beauty. Join us on this journey of self-discovery and confidence!</p>
+    </section>
+
+    <section id="about">
+      <h3>About</h3>
+      <p>At Storybook Boudoir, we believe that every woman deserves to feel beautiful and confident. Our photography experiences are designed to help you celebrate your individuality and showcase your unique beauty. Our team of talented photographers and makeup artists are dedicated to making you feel comfortable and at ease, while capturing stunning images that you will cherish for a lifetime.</p>
+    </section>
+
+    <section id="testimonials">
+      <h3>Testimonials</h3>
+      <p>"Storybook Boudoir helped me to feel confident and beautiful in my own skin. The experience was so empowering and the photos turned out amazing!" - Jane</p>
+      <p>"I had such a fun and comfortable experience with the team at Storybook Boudoir. They truly know how to make you feel your best!" - Sarah</p>
+    </section>
+
+    <section id="faq">
+      <h3>FAQ</h3>
+      <dl>
+        <dt>What should I wear to my photo shoot?</dt>
+        <dd>We recommend wearing something that makes you feel comfortable and confident, such as lingerie or a favorite outfit. We also offer wardrobe consultation to help you choose the perfect look for your shoot.</dd>
+
+        <dt>Do you offer hair and makeup services?</dt>
+        <dd>Yes, we have a team of talented hair and makeup artists who can create any look you desire. Our goal is to make you feel your best and enhance your natural beauty.</dd>
+
+        <dt>How do I book a photo shoot?</dt>
+        <dd>You can book a photo shoot by contacting us via phone or email. We will guide you through the process and answer any questions you may have.</dd>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <h3>Contact</h3>
+      <form action="process.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  
+    <footer>
+      <p>&copy; 2023 Storybook Boudoir</p>
+    </footer>
+  </body>
+  </html>
